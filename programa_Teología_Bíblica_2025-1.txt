@@ -1,0 +1,1 @@
+{"facultad": "Teolog\u00eda", "programa": "Teolog\u00eda_B\u00edblica", "asignado": {"aulas": 7, "laboratorios": 2, "aulas_moviles": 0}, "estado": "exito"}
