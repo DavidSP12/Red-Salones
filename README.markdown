@@ -19,16 +19,26 @@ Este proyecto implementa un sistema distribuido para gestionar la asignación de
    - PC2: Programas académicos, facultades (`facultad.py`).
    - PC3: Programas académicos, servidor central (`servidor_asincrono.py` o `servidor_broker.py`).
 3. **Estructura de Directorios**:
-   ```
-   gestion_aulas/
-   ├── programa.py
-   ├── facultad.py
-   ├── servidor_asincrono.py
-   ├── servidor_broker.py
-   ├── servidor_respaldo.py
-   ├── verificacion_estado.py
-   └── asignaciones_<semestre>.txt (generado)
-   ```
+gestion_aulas_entrega2.zip
+├── src/
+│   ├── servidor_central.py
+│   ├── servidor_respaldo.py
+│   ├── facultad.py
+│   ├── programa.py
+│   ├── utils/
+│   │   ├── hmac_utils.py
+│   │   ├── db_utils.py
+│   │   └── red_utils.py
+│   └── aulas.txt
+├── docs/
+│   ├── arquitectura/
+│   │   ├── diagrama_despliegue.png
+│   │   └── diagrama_componentes.png
+│   └── interaccion/
+│       ├── diagrama_clases.png
+│       └── diagrama_secuencia.png
+├── protocolo_pruebas.md
+└── informe_entrega2.pdf
 
 ## Ejecución del Sistema
 1. **Iniciar el Servidor de Respaldo (PC1)**:
