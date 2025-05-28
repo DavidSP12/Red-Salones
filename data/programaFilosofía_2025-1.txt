@@ -1,0 +1,1 @@
+{"facultad": "Humanidades", "programa": "Filosof\u00eda", "asignado": {"aulas": 8, "laboratorios": 3, "aulas_moviles": 0}, "estado": "exito"}
