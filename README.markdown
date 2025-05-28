@@ -2,7 +2,10 @@
 
 ## Resumen
 Este proyecto implementa un sistema distribuido para gestionar la asignación de aulas y laboratorios en una universidad, según los requisitos del curso "Introducción a los Sistemas Distribuidos" de la Pontificia Universidad Javeriana (2025-10). Utiliza Python, ZeroMQ y hilos para manejar solicitudes concurrentes en 10 facultades, 50 programas académicos y un servidor central, con tolerancia a fallos mediante un servidor de respaldo.
-
+Integrantes:
+David Santiago Piñeros Rodriguez
+Gabriel Alejandro Camacho Rivera
+Santiago Avila Barbudo
 ## Requisitos
 - Python 3.8+
 - pyzmq (`pip install pyzmq`)
